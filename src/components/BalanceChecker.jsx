@@ -25,7 +25,7 @@ const BalanceChecker = ({ address, setAddress, getBalance, balance }) => (
 BalanceChecker.propTypes = {
   address: PropTypes.node,
   setAddress: PropTypes.node,
-  getBalance: PropTypes.node,
+  getBalance: PropTypes.func.isRequired,
   balance: PropTypes.node,
 };
 export default BalanceChecker;
