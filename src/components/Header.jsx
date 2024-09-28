@@ -7,7 +7,7 @@ const Header = ({ connectToMetaMask }) => (
       onClick={connectToMetaMask}
       className="mt-4 bg-yellow-500 text-black font-semibold px-4 py-2 rounded"
     >
-      Enable Ethereum
+      Connect Wallet
     </button>
   </header>
 );
